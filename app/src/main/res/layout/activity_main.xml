@@ -29,12 +29,22 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="生成二维码"
-        android:id="@+id/button3"
+    android:text="生成二维码"
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="31dp"
+    android:layout_below="@+id/button2"
+    android:layout_alignLeft="@+id/button2"
+    android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:text="扫描身份证"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2" />
 </RelativeLayout>

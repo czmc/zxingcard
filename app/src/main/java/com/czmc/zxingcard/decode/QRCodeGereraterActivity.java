@@ -1,4 +1,4 @@
-package com.czmc.zxingcard;
+package com.czmc.zxingcard.decode;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.czmc.zxingcard.Intents;
+import com.czmc.zxingcard.R;
 import com.czmc.zxingcard.decode.Contents;
 import com.google.zxing.BarcodeFormat;
 

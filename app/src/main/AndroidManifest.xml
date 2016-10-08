@@ -69,7 +69,7 @@
         </activity>
 
         <!-- io.card -->
-        <activity android:name="com.czmc.zxingcard.CardScanActivity" />
+        <activity android:name="com.czmc.zxingcard.creditcard.CreditCardScanActivity" />
         <activity
             android:name="io.card.payment.CardIOActivity"
             android:configChanges="keyboardHidden|orientation" />
@@ -130,7 +130,7 @@
                     android:scheme="zxing" />
             </intent-filter>
         </activity>
-        <activity android:name="com.czmc.zxingcard.encode.EncodeActivity"
+        <activity android:name="com.czmc.zxingcard.encode.QRCodeScanActivity"
             android:stateNotNeeded="true">
             <intent-filter>
                 <action android:name="com.google.zxing.client.android.ENCODE"/>
@@ -149,7 +149,8 @@
                 <data android:mimeType="text/plain"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.czmc.zxingcard.QRCodeGereraterActivity"></activity>
+        <activity android:name="com.czmc.zxingcard.decode.QRCodeGereraterActivity"></activity>
+        <activity android:name=".idcard.IDCardScanActivity"/>
     </application>
 
 </manifest>

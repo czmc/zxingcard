@@ -1,4 +1,4 @@
-package com.czmc.zxingcard;
+package com.czmc.zxingcard.creditcard;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,10 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.czmc.zxingcard.R;
+
 import io.card.payment.CardIOActivity;
 import io.card.payment.CreditCard;
 
-public class CardScanActivity extends Activity {
+public class CreditCardScanActivity extends Activity {
     final String TAG = getClass().getName();
 
     private Button scanButton;

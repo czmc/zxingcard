@@ -47,9 +47,9 @@ import java.util.regex.Pattern;
  *
  * @author dswitkin@google.com (Daniel Switkin)
  */
-public final class EncodeActivity extends Activity {
+public final class QRCodeScanActivity extends Activity {
 
-  private static final String TAG = EncodeActivity.class.getSimpleName();
+  private static final String TAG = QRCodeScanActivity.class.getSimpleName();
 
   private static final int MAX_BARCODE_FILENAME_LENGTH = 24;
   private static final Pattern NOT_ALPHANUMERIC = Pattern.compile("[^A-Za-z0-9]");

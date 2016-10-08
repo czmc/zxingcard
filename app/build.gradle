@@ -30,4 +30,8 @@ dependencies {
     compile 'io.card:android-sdk:5.4.2'
     /* 二维码*/
     compile files('libs/zxing-core.jar')
+
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+
+    compile 'org.jsoup:jsoup:1.8.3'
 }
